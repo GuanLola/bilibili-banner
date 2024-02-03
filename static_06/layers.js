@@ -2,129 +2,42 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_06/cb5b4ca963e3a1a6d3917182561844b24a05fc20.png",
+              "src": "./static_06/01b79b5b5b38d7305a0ca1780c24662cc5a59f18.png",
               "id": 0
           }
       ],
       "scale": {
-          "initial": 1.2
+          "initial": 0.9
       },
       "rotate": {},
-      "translate": {},
+      "translate": {
+          "offset": [
+              5,
+              0
+          ]
+      },
       "blur": {},
       "opacity": {
           "wrap": "clamp"
       },
       "id": 0,
-      "name": "19天空"
+      "name": "18 bg"
   },
   {
       "resources": [
           {
-              "src": "./static_06/bad95b1085650b58108b3491c9c13e1ef4e6b41f.png",
+              "src": "./static_06/fe903820ca0f604ef24f16ff7ad51192ead3d0c8.png",
               "id": 0
           }
       ],
       "scale": {
-          "initial": 1.2
+          "initial": 0.9
       },
-      "rotate": {},
-      "translate": {
-          "offset": [
-              2,
-              0
-          ]
-      },
-      "blur": {},
-      "opacity": {
-          "wrap": "clamp"
-      },
-      "id": 1,
-      "name": "19天空"
-  },
-  {
-      "resources": [
-          {
-              "src": "./static_06/b28b35a71a658e8bc449cd570337d7d9662d07d7.png",
-              "id": 0
-          }
-      ],
-      "scale": {},
-      "rotate": {},
-      "translate": {
-          "offset": [
-              12,
-              0
-          ]
-      },
-      "blur": {},
-      "opacity": {
-          "wrap": "clamp"
-      },
-      "id": 2,
-      "name": "17极光"
-  },
-  {
-      "resources": [
-          {
-              "src": "./static_06/596c782fe6636269c65a50a9188fd4d16d12a83e.png",
-              "id": 0
-          }
-      ],
-      "scale": {},
       "rotate": {},
       "translate": {
           "initial": [
               0,
-              10
-          ]
-      },
-      "blur": {},
-      "opacity": {
-          "wrap": "clamp"
-      },
-      "id": 3,
-      "name": "16背景山"
-  },
-  {
-      "resources": [
-          {
-              "src": "./static_06/4cbfd5b2c00e1abb157e9ca3e79380bfa40d2b26.png",
-              "id": 0
-          }
-      ],
-      "scale": {},
-      "rotate": {},
-      "translate": {
-          "initial": [
-              0,
-              55
-          ],
-          "offset": [
-              100,
-              0
-          ]
-      },
-      "blur": {},
-      "opacity": {
-          "wrap": "clamp"
-      },
-      "id": 4,
-      "name": "15冰面"
-  },
-  {
-      "resources": [
-          {
-              "src": "./static_06/6b8bf544dec0088423136771f01696c68112a145.png",
-              "id": 0
-          }
-      ],
-      "scale": {},
-      "rotate": {},
-      "translate": {
-          "initial": [
-              0,
-              40
+              -10
           ],
           "offset": [
               20,
@@ -135,13 +48,37 @@ const layers = [
       "opacity": {
           "wrap": "clamp"
       },
-      "id": 5,
-      "name": "14中景"
+      "id": 1,
+      "name": "17 远山"
   },
   {
       "resources": [
           {
-              "src": "./static_06/cd6dadba219330bf44d3f8bcb584aede77d37f79.png",
+              "src": "./static_06/73fcb8a56776307147c140f68bf9c5793696ae88.png",
+              "id": 0
+          }
+      ],
+      "scale": {
+          "initial": 0.9
+      },
+      "rotate": {},
+      "translate": {
+          "offset": [
+              40,
+              0
+          ]
+      },
+      "blur": {},
+      "opacity": {
+          "wrap": "clamp"
+      },
+      "id": 2,
+      "name": "16 草中景"
+  },
+  {
+      "resources": [
+          {
+              "src": "./static_06/b8a5bcf77a07793ce50294a8cb14a9fb8f2cea83.png",
               "id": 0
           }
       ],
@@ -149,8 +86,34 @@ const layers = [
       "rotate": {},
       "translate": {
           "initial": [
-              -250,
-              -10
+              0,
+              -40
+          ],
+          "offset": [
+              30,
+              0
+          ]
+      },
+      "blur": {},
+      "opacity": {
+          "wrap": "clamp"
+      },
+      "id": 5,
+      "name": "13a 藤蔓"
+  },
+  {
+      "resources": [
+          {
+              "src": "./static_06/1fd3d44b8f890b88cf52f6bcc041326b30e7cb62.png",
+              "id": 0
+          }
+      ],
+      "scale": {},
+      "rotate": {},
+      "translate": {
+          "initial": [
+              100,
+              0
           ],
           "offset": [
               60,
@@ -161,27 +124,27 @@ const layers = [
       "opacity": {
           "wrap": "clamp"
       },
-      "id": 6,
-      "name": "13树"
+      "id": 3,
+      "name": "15 松树中景"
   },
   {
       "resources": [
           {
-              "src": "./static_06/31ff321fe1c2b003ab5c42beebb07f6c1652f66e.png",
+              "src": "./static_06/085bc5e7f70b625b62c1f5d374f55acbd828ab65.png",
               "id": 0
           }
       ],
       "scale": {
-          "initial": 0.5
+          "initial": 0.9
       },
       "rotate": {},
       "translate": {
           "initial": [
-              600,
-              50
+              -140,
+              -50
           ],
           "offset": [
-              -150,
+              50,
               0
           ]
       },
@@ -189,13 +152,13 @@ const layers = [
       "opacity": {
           "wrap": "clamp"
       },
-      "id": 11,
-      "name": "08狐狸"
+      "id": 14,
+      "name": "03 顶部树枝"
   },
   {
       "resources": [
           {
-              "src": "./static_06/cfb54458ad3e2101d245f3434222e33453825f4e.png",
+              "src": "./static_06/3e16264878dd88c1b8ead37aab07a9363186b18c.png",
               "id": 0
           }
       ],
@@ -203,8 +166,8 @@ const layers = [
       "rotate": {},
       "translate": {
           "initial": [
-              130,
-              20
+              0,
+              10
           ],
           "offset": [
               70,
@@ -215,13 +178,43 @@ const layers = [
       "opacity": {
           "wrap": "clamp"
       },
-      "id": 7,
-      "name": "12中间房子+雪人"
+      "id": 4,
+      "name": "14 锅子"
   },
   {
       "resources": [
           {
-              "src": "./static_06/5103762686dc9627619b028354c15ba2a72b0886.png",
+              "src": "./static_06/8902051ab71c8093a85ce2a71882054ee91ea631.png",
+              "id": 0
+          }
+      ],
+      "scale": {
+          "initial": 1.2
+      },
+      "rotate": {
+          "offset": -40
+      },
+      "translate": {
+          "initial": [
+              230,
+              -40
+          ],
+          "offset": [
+              80,
+              0
+          ]
+      },
+      "blur": {},
+      "opacity": {
+          "wrap": "clamp"
+      },
+      "id": 6,
+      "name": "12 悬挂猴"
+  },
+  {
+      "resources": [
+          {
+              "src": "./static_06/c9231e763120806f3e918d06ad3f415e920c2b73.png",
               "id": 0
           }
       ],
@@ -229,8 +222,34 @@ const layers = [
       "rotate": {},
       "translate": {
           "initial": [
-              -320,
-              20
+              660,
+              0
+          ],
+          "offset": [
+              80,
+              0
+          ]
+      },
+      "blur": {},
+      "opacity": {
+          "wrap": "clamp"
+      },
+      "id": 9,
+      "name": "09 右边大树"
+  },
+  {
+      "resources": [
+          {
+              "src": "./static_06/67a3c27832d63060d88fbd7bdb2fc543e3fb9ddf.png",
+              "id": 0
+          }
+      ],
+      "scale": {},
+      "rotate": {},
+      "translate": {
+          "initial": [
+              750,
+              0
           ],
           "offset": [
               100,
@@ -242,23 +261,23 @@ const layers = [
           "wrap": "clamp"
       },
       "id": 10,
-      "name": "10大鹅"
+      "name": "08 右边雪地"
   },
   {
       "resources": [
           {
-              "src": "./static_06/09fa68c0c716596cebf6b1f81ed69a2a7a0a8c89.png",
+              "src": "./static_06/c651a0183b81857191c86b133c5a777059b13571.png",
               "id": 0
           }
       ],
       "scale": {
-          "initial": 0.9
+          "initial": 0.95
       },
       "rotate": {},
       "translate": {
           "initial": [
-              -200,
-              20
+              530,
+              15
           ],
           "offset": [
               120,
@@ -269,22 +288,108 @@ const layers = [
       "opacity": {
           "wrap": "clamp"
       },
-      "id": 9,
-      "name": "0933"
+      "id": 7,
+      "name": "11 右边三猴"
   },
   {
       "resources": [
           {
-              "src": "./static_06/c2914ea86a54203e59b9b9fb1b8ab3461a5976ed.png",
+              "src": "./static_06/6afc90f36610318b4785a52c1a51ef6f1de9d25b.png",
               "id": 0
           }
       ],
-      "scale": {},
+      "scale": {
+          "initial": 0.9
+      },
       "rotate": {},
       "translate": {
           "initial": [
-              75,
-              19
+              560,
+              15
+          ],
+          "offset": [
+              270,
+              0
+          ]
+      },
+      "blur": {},
+      "opacity": {
+          "wrap": "clamp"
+      },
+      "id": 8,
+      "name": "10 右边大猴"
+  },
+  {
+      "resources": [
+          {
+              "src": "./static_06/476679726643b3b6cc5599b882d85953ef34f3d9.png",
+              "id": 0
+          }
+      ],
+      "scale": {
+          "initial": 0.9
+      },
+      "rotate": {},
+      "translate": {
+          "initial": [
+              -190,
+              -5
+          ],
+          "offset": [
+              100,
+              0
+          ]
+      },
+      "blur": {},
+      "opacity": {
+          "wrap": "clamp"
+      },
+      "id": 11,
+      "name": "07 33"
+  },
+  {
+      "resources": [
+          {
+              "src": "./static_06/121335f79c78bb6f47e4fc7dae4b0af0eac804bb.png",
+              "id": 0
+          }
+      ],
+      "scale": {
+          "initial": 0.9
+      },
+      "rotate": {},
+      "translate": {
+          "initial": [
+              -600,
+              0
+          ],
+          "offset": [
+              180,
+              0
+          ]
+      },
+      "blur": {},
+      "opacity": {
+          "wrap": "clamp"
+      },
+      "id": 15,
+      "name": "02_左边树干"
+  },
+  {
+      "resources": [
+          {
+              "src": "./static_06/590a6dd64ff00d5d0e63e230188939c405253452.png",
+              "id": 0
+          }
+      ],
+      "scale": {
+          "initial": 0.95
+      },
+      "rotate": {},
+      "translate": {
+          "initial": [
+              -350,
+              25
           ],
           "offset": [
               150,
@@ -295,53 +400,27 @@ const layers = [
       "opacity": {
           "wrap": "clamp"
       },
-      "id": 8,
-      "name": "1122"
+      "id": 12,
+      "name": "06 左边两只猴"
   },
   {
       "resources": [
           {
-              "src": "./static_06/0cea6143cb8fce3ac55c0e1888a889c906a976aa.png",
+              "src": "./static_06/e00c60ae700774655af2e2516a13a5b1fa2fcfe7.png",
               "id": 0
           }
       ],
       "scale": {
-          "initial": 1.2
+          "initial": 0.95
       },
       "rotate": {},
       "translate": {
           "initial": [
-              -600,
-              40
+              -580,
+              25
           ],
           "offset": [
-              200,
-              0
-          ]
-      },
-      "blur": {},
-      "opacity": {
-          "wrap": "clamp"
-      },
-      "id": 12,
-      "name": "07左地面"
-  },
-  {
-      "resources": [
-          {
-              "src": "./static_06/c7cb3d67462676f79b3e702db60f4d4b038f3f28.png",
-              "id": 0
-          }
-      ],
-      "scale": {},
-      "rotate": {},
-      "translate": {
-          "initial": [
-              -600,
-              -5
-          ],
-          "offset": [
-              400,
+              251,
               0
           ]
       },
@@ -350,128 +429,26 @@ const layers = [
           "wrap": "clamp"
       },
       "id": 13,
-      "name": "04冰屋"
+      "name": "05 左边一只猴"
   },
   {
       "resources": [
           {
-              "src": "./static_06/459fbeaaff1fbeced05ac36f1cb0c0c70df3ff01.png",
+              "src": "./static_06/357dd346995f678c43eb6bf51fe02f47bbe7db7d.png",
               "id": 0
           }
       ],
-      "scale": {},
+      "scale": {
+          "initial": 0.8
+      },
       "rotate": {},
       "translate": {
           "initial": [
-              -850,
-              0
-          ],
-          "offset": [
-              500,
-              0
-          ]
-      },
-      "blur": {},
-      "opacity": {
-          "wrap": "clamp"
-      },
-      "id": 14,
-      "name": "02左树"
-  },
-  {
-      "resources": [
-          {
-              "src": "./static_06/bba2f3520bedef31ef33a816f11a9d22487b80aa.png",
-              "id": 0
-          }
-      ],
-      "scale": {},
-      "rotate": {},
-      "translate": {
-          "initial": [
-              -1200,
-              55
-          ],
-          "offset": [
-              700,
-              0
-          ]
-      },
-      "blur": {},
-      "opacity": {
-          "wrap": "clamp"
-      },
-      "id": 15,
-      "name": "01左前植物"
-  },
-  {
-      "resources": [
-          {
-              "src": "./static_06/7c2d36bba37320de03c417ed7d86111f7b05347e.png",
-              "id": 0
-          }
-      ],
-      "scale": {},
-      "rotate": {},
-      "translate": {
-          "initial": [
-              450,
+              -1100,
               20
           ],
           "offset": [
-              500,
-              0
-          ]
-      },
-      "blur": {},
-      "opacity": {
-          "wrap": "clamp"
-      },
-      "id": 17,
-      "name": "06右边雪人"
-  },
-  {
-      "resources": [
-          {
-              "src": "./static_06/aa01bb2357ea84d7cc6cf3030769f2581a3ac98f.png",
-              "id": 0
-          }
-      ],
-      "scale": {},
-      "rotate": {},
-      "translate": {
-          "initial": [
-              350,
-              50
-          ],
-          "offset": [
-              600,
-              0
-          ]
-      },
-      "blur": {},
-      "opacity": {
-          "wrap": "clamp"
-      },
-      "id": 18,
-      "name": "05萝卜兔子"
-  },
-  {
-      "resources": [
-          {
-              "src": "./static_06/89d1c8fb55797a064a4d4aca51be2ebb8d86643a.png",
-              "id": 0
-          }
-      ],
-      "scale": {},
-      "rotate": {},
-      "translate": {
-          "initial": [
-              700,
-              0
-          ],
-          "offset": [
-              800,
+              360,
               0
           ]
       },
@@ -480,12 +457,12 @@ const layers = [
           "wrap": "clamp"
       },
       "id": 16,
-      "name": "03右树"
+      "name": "01 前景树枝"
   },
   {
       "resources": [
           {
-              "src": "./static_06/bba2f3520bedef31ef33a816f11a9d22487b80aa.png",
+              "src": "./static_06/bae427c01d895b63e6aaf6b0c239b86027527e6a.png",
               "id": 0
           }
       ],
@@ -493,20 +470,21 @@ const layers = [
       "rotate": {},
       "translate": {
           "initial": [
-              1200,
-              55
+              20,
+              10
           ],
           "offset": [
-              850,
+              80,
               0
           ]
       },
       "blur": {},
       "opacity": {
+          "initial": 0.3,
           "wrap": "clamp"
       },
-      "id": 20,
-      "name": "前树"
+      "id": 17,
+      "name": "00 光"
   },
   {
       "resources": [
@@ -521,7 +499,7 @@ const layers = [
       "rotate": {},
       "translate": {
           "offset": [
-              50,
+              30,
               0
           ]
       },
@@ -529,7 +507,38 @@ const layers = [
       "opacity": {
           "wrap": "clamp"
       },
+      "id": 18,
+      "name": "00 雪"
+  },
+  {
+      "resources": [
+          {
+              "src": "./static_06/dead007d170ae4ae5a69ef6ee044e0ede574627e.webm",
+              "id": 0
+          }
+      ],
+      "scale": {
+          "initial": 2.1
+      },
+      "rotate": {},
+      "translate": {
+          "initial": [
+              20,
+              -40
+          ],
+          "offset": [
+              36,
+              0
+          ]
+      },
+      "blur": {
+          "initial": 5
+      },
+      "opacity": {
+          "initial": 0.3,
+          "wrap": "clamp"
+      },
       "id": 19,
-      "name": "下雪"
+      "name": "00 烟雾"
   }
 ]
